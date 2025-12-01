@@ -7,10 +7,10 @@ export default function Component({
   content,
   date,
 }: {
-  id: string;
-  title: string;
-  content: string;
-  date: string;
+  id?: string;
+  title?: string;
+  content?: string;
+  date?: string;
 }) {
   return (
     <div key={id} className="border border-gray-200 p-4 my-4">
